@@ -1,0 +1,69 @@
+body{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vb;
+}
+.navbar{
+    height: 3rem;
+    background-color: white;
+}
+.fa-brands{
+    font-size: 2rem;
+    color: brown;
+}
+.nav-link {
+    color:222222 in !important;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;   
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info-socials,.f-info-links{
+    width: 100%;
+}
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    align-items: space-evenly ;
+}
+
+/* card style */
+.card-listing {
+    border: none !important;
+    margin-bottom: 2rem ;
+}
+.card-img-top{
+    border-radius: 1rem;
+}
+.card-body{
+    padding: 0 !important;
+}
+.listing-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay :hover{
+     opacity: 1;
+     background-color: black;
+}
+.btns{
+    display: flex;
+}
+.edit-btn{
+    color: brown;
+}
