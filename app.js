@@ -23,7 +23,7 @@ app.use(methodOverride("_method"));
 app.engine("ejs",ejsMate);//to use ejs mate ;
 app.use(express.static(path.join(__dirname,"/public")));
 app.use("/listing",listings);   //router for "/listing"
-app.use("/listing/:id/reviews",reviews);
+app.use("/listing/:id/reviews",reviews); //tgffdsgdsgfsdg
  
 
 
